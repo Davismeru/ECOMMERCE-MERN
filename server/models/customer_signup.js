@@ -13,6 +13,11 @@ const customerDetails = new Schema({
     required: true,
   },
 
+  gender: {
+    type: String,
+    required: true,
+  },
+
   email: {
     type: String,
     required: true,
